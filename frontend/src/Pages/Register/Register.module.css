@@ -1,0 +1,85 @@
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    
+    color:white;
+    text-align: center;
+    padding: 70px 0px 100px 0px;
+}
+
+.full {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-image: url("https://t4.ftcdn.net/jpg/04/16/02/87/360_F_416028708_M4Cnj2FbPDD7qFn85DhVyZNJU22AR16d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid white;
+    max-width: 500px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+text {
+   
+    border: 1px solid white !important;
+    padding: 15px 30px 15px 5px;
+    border-radius: 5px;
+    margin: 10px 50px;
+    width: 300px;
+}
+
+.box > button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(3, 56, 56);
+    color: white;
+    padding: 15px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-size: 20px;
+}
+
+.box > button:hover {
+    background-color: white;
+    border: 1px solid rgb(3, 56, 56);
+    color: rgb(3, 56, 56);
+}
+
+.box > input:focus {
+    background-color: rgb(3, 56, 56);
+    color: white;
+}
+
+.box > div {
+    font-size: 18px;
+    padding: 5px 0px;
+    font-weight: 400;
+}
+
+.links {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .3s ease;
+    color:white
+}
+
+.links:hover {
+    color: white;
+}
+
+.toast {
+    font-size: 18px;
+    letter-spacing: 1px;
+}

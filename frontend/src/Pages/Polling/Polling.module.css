@@ -1,0 +1,121 @@
+.full {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background: rgb(242,34,16);
+    background: linear-gradient(90deg, rgba(242,34,16,0.9772727272727273) 17%, rgba(255,255,255,1) 47%, rgba(7,194,16,1) 100%);
+          
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid rgb(3, 56, 56);
+    max-width: 500px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form > input {
+    background-color: white;
+    border: 1px solid rgb(3, 56, 56);
+    padding: 15px 30px 15px 5px;
+    border-radius: 5px;
+    margin: 10px 50px;
+    width: 300px;
+}
+
+.form > button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(3, 56, 56);
+    color: white;
+    padding: 15px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form > button:hover {
+    background-color: white;
+    border: 1px solid rgb(3, 56, 56);
+    color: rgb(3, 56, 56);
+}
+
+.form > input:focus {
+    background-color: rgb(3, 56, 56);
+    color: white;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.heading > div {
+    width: 33%;
+    text-align: center;
+}
+
+.form > div {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.table {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(3, 56, 56);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    color: rgb(3, 56, 56);
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(3, 56, 56);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.box > div {
+    width: 33%;
+    transition: .4s ease;
+}
+
+.box1 > div {
+    width: 33%;
+    transition: .4s ease;
+}
+
+.box:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(3, 56, 56);
+}
+
+.extra {
+    margin: 30px 0px;
+}

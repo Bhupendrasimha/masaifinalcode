@@ -1,0 +1,74 @@
+.heading {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+     color: rgb(3, 56, 56);
+    text-align: center;
+    padding: 70px 0px 100px 0px;
+}
+
+.full {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://media.istockphoto.com/videos/india-independence-day-balloons-helium-with-flag-colors-video-id1256029657?s=640x640");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height:620px
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+    max-width: 500px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box > button {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(3, 56, 56);
+    color: white;
+    padding: 15px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-size: 20px;
+}
+
+.box > button:hover {
+    background-color: white;
+    border: 1px solid rgb(3, 56, 56);
+    color: rgb(3, 56, 56);
+}
+
+.box > input:focus {
+    background-color: rgb(3, 56, 56);
+    color: white;
+}
+
+.box > div {
+    font-size: 18px;
+    padding: 5px 0px;
+    font-weight: 400;
+}
+
+.links {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .3s ease;
+}
+
+.links:hover {
+    color: orangered;
+}
+
+.toast {
+    font-size: 18px;
+    letter-spacing: 1px;
+}

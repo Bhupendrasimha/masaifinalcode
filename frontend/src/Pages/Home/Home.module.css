@@ -1,0 +1,43 @@
+.main{
+    background-image:url("https://www.mitsubishi-motors.co.za/wp-content/uploads/2017/10/ElectionBackground1.jpg");
+    background-repeat: no-repeat;
+    height:620px;
+    background-size: cover;
+    background-position:center ;
+}
+
+.heading{
+    font-size: 30px;
+    text-align: center;
+    padding:20px;
+    color:whitesmoke
+    
+}
+.guest{
+    justify-content: center;
+    display: flex;
+    padding:10px;margin-top: 10%;
+    
+}
+.guest>Button:hover{
+    color:palevioletred;
+    border:2px solid palevioletred
+}
+.guest > Button{
+    color:white;
+    border:1px solid whitesmoke
+    }
+.admin{
+    justify-content: center;
+    display: flex;
+padding:10px
+}
+.admin > Button{
+margin:10px;
+color:white;
+border:1px solid whitesmoke
+}
+.admin>Button:hover{
+    color:palevioletred;
+    border:2px solid palevioletred
+}
