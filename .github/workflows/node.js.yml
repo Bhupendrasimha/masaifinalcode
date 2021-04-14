@@ -20,6 +20,8 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+    - run:  running on ${{runner.os}}
+    
     - name:  Checkout repository
       uses: actions/checkout@v2
     
